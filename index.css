@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    font-family: "Poppins", Arial, sans-serif;
+    text-align: center;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #a86eff, #aa8dbe);
+    padding: 40px 20px;
+    color: white;
+    animation: fadeDown 1.3s ease;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header p {
+    margin-top: 8px;
+    font-size: 1.1rem;
+}
+
+.letter {
+
+    max-width: 800px;
+    margin: 40px auto;
+background: linear-gradient(135deg,  #a86eff, #b29cc0);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    padding: 40px;
+    line-height: 1.8;
+    font-size: 1.1em;
+  }
+
+/* Main container */
+.container {
+    padding: 30px 20px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    margin: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s ease;
+    width: 80%;
+    max-width: 280px;
+}
+
+.btn:hover {
+    transform: scale(1.06);
+}
+
+/* Animation */
+@keyframes fadeDown {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+
+/* Profile Picture */
+.profile-pic {
+    width: 180px;
+    height: 240px;
+    border-radius: 18px;
+    object-fit: cover;
+    border: 2px solid gold;
+    box-shadow: 0 0 12px gold;
+    margin-bottom: 15px;
+}
+
+/* Gold Sparkles Background */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-image: radial-gradient(circle, gold 2px, transparent 2px);
+    background-size: 50px 50px;
+    animation: sparkle 4s linear infinite;
+    opacity: 0.4;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  background: #f0d8f3;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+@keyframes sparkle {
+    from { background-position: 0 0; }
+    to { background-position: 200px 200px; }
+}

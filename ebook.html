@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book Purchase</title>
+    <link rel="stylesheet" href="ebook.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <img src="images/pic-11.jpg" alt="Birthday Girl" class="profile-pic">
+    <h1>📘 E-Book Purchase</h1>
+    <p>Make payment to unlock your copy 💛</p>
+</header>
+
+<!-- SUCCESS POPUP -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <h2>🎉 Payment Proof Submitted!</h2>
+        <p>We’ll verify and send your e-book shortly.</p>
+        <button id="closePopup">OK</button>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="payment-box fade-in">
+        <h2>Payment Details</h2>
+
+        <p><strong>Account Name:</strong> JEMIMA ABDULLAHI</p>
+        <p><strong>Bank:</strong>ACCESS BANK</p>
+        <p><strong>Account Number:</strong> <span class="acct">1892922326</span></p>
+        <p><strong>Price:</strong> ₦3,500</p>
+    </div>
+
+    <p class="note">After payment, upload your proof on WhatsApp and get the book delivered to your DM ASAP!!.</p>
+
+    
+    <button class="btn whatsapp-btn fade-in" 
+        onclick="window.location.href='https://wa.me/2348123492138?text=Hello! I just made a payment for the e-book and here is my proof.'">
+        Send Proof on WhatsApp
+    </button>
+
+   
+</div>
+
+ <footer>
+    <p>Designed & Developed by <span class="creator">Abdullahi Isaac Ugbede-ojo</span></p>
+    <p>Email: <a href="mailto:abdullahiisaac06@gmail.com">abdullahiisaac06@gmail.com</a> |
+       Phone: <a href="tel:+2348123492138">+2348123492138</a></p>
+       
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
