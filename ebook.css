@@ -8,7 +8,7 @@ body {
 
 /* Header */
 .header {
-    background: linear-gradient(135deg, #9c62ff, #5d0da8);
+    background: linear-gradient(135deg, #a86eff, #aa8dbe);
     padding: 40px 20px;
     color: white;
     animation: headerFade 1.2s ease;
